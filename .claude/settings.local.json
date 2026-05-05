@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv --version)",
+      "Bash(pip install:*)",
+      "Bash(python -m uv --version)",
+      "Bash(python -m uv init)",
+      "Bash(python -m uv pip install -r requirements.txt)",
+      "Bash(python:*)",
+      "Bash(.venv/Scripts/python:*)",
+      "Bash(ls:*)",
+      "Bash(choco install:*)",
+      "Bash(git remote:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
